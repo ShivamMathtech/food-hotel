@@ -1,0 +1,35 @@
+body {
+  background-color: #0e0e0e;
+}
+.main-page {
+  height: 100vh;
+  background-image: url("img/bg1.jpg");
+  background-size: cover;
+}
+header {
+  height: 100px;
+  background-color: white;
+}
+@font-face {
+  font-family: cur1;
+  src: url("fonts/ChopinScript.ttf");
+}
+.logo {
+  font-family: cur1;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+.content-1 {
+  height: calc(100vh - 100px);
+}
+.section-1 {
+  height: 50vh;
+  width: 50vw;
+}
+.text-1 {
+  text-shadow: 3px 1px #0e0e0e;
+}
+.btn-warning {
+  border-radius: 30px;
+  width: 150px;
+}
